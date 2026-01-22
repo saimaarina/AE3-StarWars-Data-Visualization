@@ -1,7 +1,7 @@
 ---
 title: "Visualizing Starwars characters"
-author: "YOU"
-date: "`r Sys.Date()`"
+author: "Saima Arina"
+date: "01/21/2026"
 output: 
   html_document: 
     fig_height: 4
@@ -17,7 +17,7 @@ library(tidyverse)
 ```{r starwars-plot}
 ggplot(data = starwars, 
        mapping = aes(x = height, y = mass, color = gender, size = birth_year)) +
-  geom_point(color = "#30509C") +
+  geom_point(color = "pink") +
   labs(size = "Birth year", x = "Height", y = "Mass")
 ```
 
